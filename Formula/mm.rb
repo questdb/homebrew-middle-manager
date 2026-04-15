@@ -1,17 +1,17 @@
 class Mm < Formula
   desc "Dual-panel file manager TUI inspired by Far Manager, built in Rust"
   homepage "https://github.com/questdb/middle-manager"
-  version "0.0.2"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/questdb/middle-manager/releases/download/v0.0.2/middle-manager-aarch64-apple-darwin.tar.gz"
-      sha256 "a6da056df405c0fb6528f333a112ba95447c53418021678fe5ea2786a9ae05d0"
+      url "https://github.com/questdb/middle-manager/releases/download/v0.1.2/middle-manager-aarch64-apple-darwin.tar.gz"
+      sha256 "e856672b1668d10847deb9056c53bd20f6f4f49904ddaf722c2fa81cc4a6d2be"
     end
     on_intel do
-      url "https://github.com/questdb/middle-manager/releases/download/v0.0.2/middle-manager-x86_64-apple-darwin.tar.gz"
-      sha256 "cbb8c2c86a2f0c80b98138a0ae41c55555e05ee3aeab70fd555154b9cf0d7939"
+      url "https://github.com/questdb/middle-manager/releases/download/v0.1.2/middle-manager-x86_64-apple-darwin.tar.gz"
+      sha256 "546dbf25980d883044f6bd4324519d8b99485fd6a84282c2a2795aa16dc10816"
     end
   end
 
